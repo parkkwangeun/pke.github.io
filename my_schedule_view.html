@@ -1,0 +1,225 @@
+    <script>
+function d_prev(y,m,d) {
+	location.href = '?yy=' + y + '&mm=' + m + '&dd=' + d;
+}
+
+function d_next(y,m,d) {
+	location.href = '?yy=' + y + '&mm=' + m + '&dd=' + d;
+}
+
+function d_move(c,t,y,m,d,name,police_num,birth,tel) {
+	document.getElementById('diary').style.display = 'block';
+	document.getElementById('diary_').src = 'mon689f.html?cid=' + c + '&year=' + y + '&mon=' + m + '&day=' + d + '&tid=' + t + '&name=' + name + '&police_num=' + police_num + '&birth=' + birth + '&tel=' + tel;
+}
+
+function w_prev(y,m,d) {
+	location.href = '?yy=' + y + '&mm=' + m + '&dd=' + d;
+}
+
+function w_next(y,m,d,n) {
+	location.href = '?yy=' + y + '&mm=' + m + '&dd=' + d;
+}
+</script>
+<style>
+a {
+	text-decoration: none; color: #333;
+}
+
+td {
+	font-size: 20px;
+}
+
+.main_btn1 {
+	background-color: #969696; color: #fff; height: 25px; padding: 5px 5px 5px 5px;
+}
+
+.main_btn2 {
+	background-color: #e7c60d; height: 25px; padding: 5px 5px 5px 5px;
+}
+
+._1 {
+	border-top: #333 3px solid; border-bottom: #333 3px solid; border-right: #333 1px dotted; color: #fff; font-weight: bold;
+}
+
+._2 {
+	border-top: #333 3px solid; border-bottom: #333 3px solid; border-right: #333 1px dotted; color: #fff; font-weight: bold;
+}
+
+._3 {
+	border-top: #333 3px solid; border-bottom: #333 3px solid; color: #fff; font-weight: bold;
+}
+</style>
+<table width="100%" cellpadding="5" cellspacing="0">
+	<tr>
+		<td width="20%"><span class="main_btn1">비번일</span>&nbsp;&nbsp;<span class="main_btn2">특근일</span></td>
+		<td width="60%" style="font-size: 32px; font-weight: bold; color: 777; text-align: center;">나의 교육 스케줄</td>
+		<td width="20%">&nbsp;</td>
+	</tr>
+</table>
+
+<table width="100%" cellpadding="5" cellspacing="0">
+	<tr>
+		<td align="center" style="font-size: 24px;">
+			<a href="javascript:d_prev('2022','12','12');">◀</a>&nbsp;&nbsp;&nbsp;2022-12-13 (화)&nbsp;&nbsp;&nbsp;<a href="javascript:d_next('2022','12','14');">▶</a>	
+		</td>
+	</tr>
+</table>
+<br>
+<table width="100%" cellpadding="5" cellspacing="0">
+	<tr style="background-color: #8db1f0;">
+		<td align="center" class="_1">부</td>
+		<td align="center" class="_2">시간</td>
+		<td align="center" class="_2">수강생</td>
+		<td align="center" class="_2">종별</td>
+		<td align="center" class="_2">이수시간</td>
+		<td align="center" class="_3">비고</td>
+	</tr>
+	<tr style=" ">
+		<td align="center" style="border-bottom: #333 1px solid; border-right: #333 1px dotted;">1 부</td>
+		<td align="center" style="border-bottom: #333 1px solid; border-right: #333 1px dotted;">05:50</td>
+		<td align="center" style="border-bottom: #333 1px solid; border-right: #333 1px dotted;"></td>
+		<td align="center" style="border-bottom: #333 1px solid; border-right: #333 1px dotted;">
+								</td>
+		<td align="center" style="border-bottom: #333 1px solid; border-right: #333 1px dotted;">
+					</td>
+		<td align="center" style="border-bottom: #333 1px solid;"> </td>
+	</tr>
+	<tr style=" ">
+		<td align="center" style="border-bottom: #333 2px solid; border-right: #333 1px dotted;">2 부</td>
+		<td align="center" style="border-bottom: #333 2px solid; border-right: #333 1px dotted;">06:45</td>
+		<td align="center" style="border-bottom: #333 2px solid; border-right: #333 1px dotted;"></td>
+		<td align="center" style="border-bottom: #333 2px solid; border-right: #333 1px dotted;">
+								</td>
+		<td align="center" style="border-bottom: #333 2px solid; border-right: #333 1px dotted;">
+					</td>
+		<td align="center" style="border-bottom: #333 2px solid;"> </td>
+	</tr>
+	<tr style=" ">
+		<td align="center" style="border-bottom: #333 1px solid; border-right: #333 1px dotted;">3 부</td>
+		<td align="center" style="border-bottom: #333 1px solid; border-right: #333 1px dotted;">08:30</td>
+		<td align="center" style="border-bottom: #333 1px solid; border-right: #333 1px dotted;"></td>
+		<td align="center" style="border-bottom: #333 1px solid; border-right: #333 1px dotted;">
+								</td>
+		<td align="center" style="border-bottom: #333 1px solid; border-right: #333 1px dotted;">
+					</td>
+		<td align="center" style="border-bottom: #333 1px solid;"> </td>
+	</tr>
+	<tr style=" ">
+		<td align="center" style="border-bottom: #333 2px solid; border-right: #333 1px dotted;">4 부</td>
+		<td align="center" style="border-bottom: #333 2px solid; border-right: #333 1px dotted;">08:30</td>
+		<td align="center" style="border-bottom: #333 2px solid; border-right: #333 1px dotted;"></td>
+		<td align="center" style="border-bottom: #333 2px solid; border-right: #333 1px dotted;">
+								</td>
+		<td align="center" style="border-bottom: #333 2px solid; border-right: #333 1px dotted;">
+					</td>
+		<td align="center" style="border-bottom: #333 2px solid;"> </td>
+	</tr>
+	<tr style=" ">
+		<td align="center" style="border-bottom: #333 1px solid; border-right: #333 1px dotted;">5 부</td>
+		<td align="center" style="border-bottom: #333 1px solid; border-right: #333 1px dotted;">08:30</td>
+		<td align="center" style="border-bottom: #333 1px solid; border-right: #333 1px dotted;"></td>
+		<td align="center" style="border-bottom: #333 1px solid; border-right: #333 1px dotted;">
+								</td>
+		<td align="center" style="border-bottom: #333 1px solid; border-right: #333 1px dotted;">
+					</td>
+		<td align="center" style="border-bottom: #333 1px solid;"> </td>
+	</tr>
+	<tr style=" ">
+		<td align="center" style="border-bottom: #333 2px solid; border-right: #333 1px dotted;">6 부</td>
+		<td align="center" style="border-bottom: #333 2px solid; border-right: #333 1px dotted;">08:30</td>
+		<td align="center" style="border-bottom: #333 2px solid; border-right: #333 1px dotted;"></td>
+		<td align="center" style="border-bottom: #333 2px solid; border-right: #333 1px dotted;">
+								</td>
+		<td align="center" style="border-bottom: #333 2px solid; border-right: #333 1px dotted;">
+					</td>
+		<td align="center" style="border-bottom: #333 2px solid;"> </td>
+	</tr>
+	<tr style=" ">
+		<td align="center" style="border-bottom: #333 1px solid; border-right: #333 1px dotted;">7 부</td>
+		<td align="center" style="border-bottom: #333 1px solid; border-right: #333 1px dotted;">12:50</td>
+		<td align="center" style="border-bottom: #333 1px solid; border-right: #333 1px dotted;"></td>
+		<td align="center" style="border-bottom: #333 1px solid; border-right: #333 1px dotted;">
+								</td>
+		<td align="center" style="border-bottom: #333 1px solid; border-right: #333 1px dotted;">
+					</td>
+		<td align="center" style="border-bottom: #333 1px solid;"> </td>
+	</tr>
+	<tr style=" ">
+		<td align="center" style="border-bottom: #333 2px solid; border-right: #333 1px dotted;">8 부</td>
+		<td align="center" style="border-bottom: #333 2px solid; border-right: #333 1px dotted;">13:50</td>
+		<td align="center" style="border-bottom: #333 2px solid; border-right: #333 1px dotted;"></td>
+		<td align="center" style="border-bottom: #333 2px solid; border-right: #333 1px dotted;">
+								</td>
+		<td align="center" style="border-bottom: #333 2px solid; border-right: #333 1px dotted;">
+					</td>
+		<td align="center" style="border-bottom: #333 2px solid;"> </td>
+	</tr>
+	<tr style=" ">
+		<td align="center" style="border-bottom: #333 1px solid; border-right: #333 1px dotted;">9 부</td>
+		<td align="center" style="border-bottom: #333 1px solid; border-right: #333 1px dotted;">14:50</td>
+		<td align="center" style="border-bottom: #333 1px solid; border-right: #333 1px dotted;"></td>
+		<td align="center" style="border-bottom: #333 1px solid; border-right: #333 1px dotted;">
+								</td>
+		<td align="center" style="border-bottom: #333 1px solid; border-right: #333 1px dotted;">
+					</td>
+		<td align="center" style="border-bottom: #333 1px solid;"> </td>
+	</tr>
+	<tr style=" ">
+		<td align="center" style="border-bottom: #333 2px solid; border-right: #333 1px dotted;">10 부</td>
+		<td align="center" style="border-bottom: #333 2px solid; border-right: #333 1px dotted;">15:50</td>
+		<td align="center" style="border-bottom: #333 2px solid; border-right: #333 1px dotted;"></td>
+		<td align="center" style="border-bottom: #333 2px solid; border-right: #333 1px dotted;">
+								</td>
+		<td align="center" style="border-bottom: #333 2px solid; border-right: #333 1px dotted;">
+					</td>
+		<td align="center" style="border-bottom: #333 2px solid;"> </td>
+	</tr>
+	<tr style=" ">
+		<td align="center" style="border-bottom: #333 1px solid; border-right: #333 1px dotted;">11 부</td>
+		<td align="center" style="border-bottom: #333 1px solid; border-right: #333 1px dotted;">17:20</td>
+		<td align="center" style="border-bottom: #333 1px solid; border-right: #333 1px dotted;"></td>
+		<td align="center" style="border-bottom: #333 1px solid; border-right: #333 1px dotted;">
+								</td>
+		<td align="center" style="border-bottom: #333 1px solid; border-right: #333 1px dotted;">
+					</td>
+		<td align="center" style="border-bottom: #333 1px solid;"> </td>
+	</tr>
+	<tr style=" ">
+		<td align="center" style="border-bottom: #333 2px solid; border-right: #333 1px dotted;">12 부</td>
+		<td align="center" style="border-bottom: #333 2px solid; border-right: #333 1px dotted;">18:20</td>
+		<td align="center" style="border-bottom: #333 2px solid; border-right: #333 1px dotted;"></td>
+		<td align="center" style="border-bottom: #333 2px solid; border-right: #333 1px dotted;">
+								</td>
+		<td align="center" style="border-bottom: #333 2px solid; border-right: #333 1px dotted;">
+					</td>
+		<td align="center" style="border-bottom: #333 2px solid;"> </td>
+	</tr>
+	<tr style=" ">
+		<td align="center" style="border-bottom: #333 1px solid; border-right: #333 1px dotted;">13 부</td>
+		<td align="center" style="border-bottom: #333 1px solid; border-right: #333 1px dotted;">19:15</td>
+		<td align="center" style="border-bottom: #333 1px solid; border-right: #333 1px dotted;"></td>
+		<td align="center" style="border-bottom: #333 1px solid; border-right: #333 1px dotted;">
+								</td>
+		<td align="center" style="border-bottom: #333 1px solid; border-right: #333 1px dotted;">
+					</td>
+		<td align="center" style="border-bottom: #333 1px solid;"> </td>
+	</tr>
+	<tr style=" ">
+		<td align="center" style="border-bottom: #333 2px solid; border-right: #333 1px dotted;">14 부</td>
+		<td align="center" style="border-bottom: #333 2px solid; border-right: #333 1px dotted;">20:10</td>
+		<td align="center" style="border-bottom: #333 2px solid; border-right: #333 1px dotted;"></td>
+		<td align="center" style="border-bottom: #333 2px solid; border-right: #333 1px dotted;">
+								</td>
+		<td align="center" style="border-bottom: #333 2px solid; border-right: #333 1px dotted;">
+					</td>
+		<td align="center" style="border-bottom: #333 2px solid;"> </td>
+	</tr>
+	<tr>
+		<td align="center" style="border-bottom: #333 0px solid;">&nbsp;</td>
+		<td align="center" style="border-bottom: #333 0px solid;">&nbsp;</td>
+		<td align="center" style="border-bottom: #333 0px solid;">&nbsp;</td>
+		<td align="center" style="border-bottom: #333 0px solid;">&nbsp;</td>
+		<td align="center" style="border-bottom: #333 0px solid;">&nbsp;</td>
+	</tr>
+</table>
+
